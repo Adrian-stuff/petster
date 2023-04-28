@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
-import firebase_app from "../config";
+import firebase_app from "../../config";
 import { doc, getDoc, getFirestore } from "firebase/firestore";
 import { getDownloadURL, getStorage, ref } from "firebase/storage";
 import { PostDataImage } from "../components/Posts";

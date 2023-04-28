@@ -61,4 +61,4 @@ async function uploadImageBlob(
   return postRef.id;
 }
 
-export { uploadImageBlob };
+export default uploadImageBlob;

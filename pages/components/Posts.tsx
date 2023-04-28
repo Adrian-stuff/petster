@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { PostData } from "../post/[postId]";
 import { getDownloadURL, getStorage, ref } from "firebase/storage";
-import firebase_app from "../config";
+import firebase_app from "../../config";
 import { collection, getDocs, getFirestore, query } from "firebase/firestore";
 import Post from "./Post";
 import { useSession } from "next-auth/react";

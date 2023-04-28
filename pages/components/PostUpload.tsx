@@ -1,6 +1,6 @@
 import React, { createRef, useRef, useState } from "react";
 import axios from "axios";
-import { uploadImageBlob } from "../helpers/uploadImage";
+import uploadImageBlob from "../../helpers/uploadImage";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 
