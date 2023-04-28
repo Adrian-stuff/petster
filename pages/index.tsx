@@ -4,6 +4,7 @@ import { authOptions } from "./api/auth/[...nextauth]";
 import pawImg from "@/public/R.png";
 import Head from "next/head";
 import Link from "next/link";
+import { signOut } from "next-auth/react";
 export default function Home({ sessionInfo }: { sessionInfo: Session }) {
   return (
     <>
@@ -26,6 +27,9 @@ export default function Home({ sessionInfo }: { sessionInfo: Session }) {
               src={sessionInfo.user?.image as string}
               alt="User Profile"
             />
+            <button onClick={() => signOut()} className="ml-4 font-bold">
+              Log out
+            </button>
           </div>
         </header>
         <main className="flex justify-center">
