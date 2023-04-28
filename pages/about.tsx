@@ -6,7 +6,7 @@ export default function About() {
       <Head>
         <title>About Page</title>
       </Head>
-      <div className="flex flex-col items-center justify-center h-full">
+      <div className="flex flex-col items-center justify-center h-full mx-10">
         <span className="mt-12 font-pacifico text-black text-center text-5xl">
           Petster
         </span>
