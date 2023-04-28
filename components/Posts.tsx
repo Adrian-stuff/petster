@@ -79,7 +79,7 @@ export default function Posts({ session }: { session: Session }) {
           );
         })
       ) : (
-        <h1>loading </h1>
+        <h1 className="text-center">loading...</h1>
       )}
     </div>
   );
