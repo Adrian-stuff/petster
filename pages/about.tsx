@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import React from "react";
 export default function About() {
   return (
@@ -8,7 +9,7 @@ export default function About() {
       </Head>
       <div className="flex flex-col items-center justify-center h-full mx-10">
         <span className="mt-12 font-pacifico text-black text-center text-5xl">
-          Petster
+          <Link href={"/"}>Petster</Link>
         </span>
         <p className="mt-2 text-md text-gray-800">
           a website for your pets, made with {"<3"} by group 2.
