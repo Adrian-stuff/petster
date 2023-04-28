@@ -119,7 +119,7 @@ const ImageUploader = () => {
           </div>
           {selectedFile ? (
             <div>
-              <img className="max-w-xl" src={previewImage} alt="" />
+              <img className="max-w-sm" src={previewImage} alt="" />
             </div>
           ) : (
             ""
