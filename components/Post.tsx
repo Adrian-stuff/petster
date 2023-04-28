@@ -6,7 +6,7 @@ import PostHeader from "./PostHeader";
 import { PostDataImage } from "./Posts";
 import PostComments from "./PostComments";
 import { Session } from "next-auth";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 export default function Post({
   postData,
   image,
@@ -29,7 +29,10 @@ export default function Post({
       ></PostHeader>
       {/* <h1>{postData.caption}</h1> */}
       <div className=" flex justify-center">
-        <img src={image ? image : postData.image} alt={postData.caption} />
+        <LazyLoadImage
+          src={image ? image : postData.image}
+          alt={postData.caption}
+        />
       </div>
       <PostActions
         postId={postData.postID}
