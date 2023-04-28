@@ -28,7 +28,7 @@ export default function Post({
         username={postData.profileName}
       ></PostHeader>
       {/* <h1>{postData.caption}</h1> */}
-      <div>
+      <div className=" flex justify-center">
         <img src={image ? image : postData.image} alt={postData.caption} />
       </div>
       <PostActions
