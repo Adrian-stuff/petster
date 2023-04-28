@@ -6,7 +6,7 @@ import {
   updateDoc,
 } from "firebase/firestore";
 import { useState, useContext } from "react";
-import firebase_app from "../../config";
+import firebase_app from "../config";
 
 interface PostActionProps {
   postId: string;

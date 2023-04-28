@@ -1,4 +1,4 @@
-import Posts from "./components/Posts";
+import Posts from "../components/Posts";
 import { Session, getServerSession } from "next-auth";
 import { authOptions } from "./api/auth/[...nextauth]";
 import pawImg from "@/public/R.png";

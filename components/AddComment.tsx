@@ -13,7 +13,7 @@ import {
   getFirestore,
   updateDoc,
 } from "firebase/firestore";
-import firebase_app from "../../config";
+import firebase_app from "../config";
 
 export default function AddComment({
   postId,

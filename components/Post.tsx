@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { PostData } from "../post/[postId]";
+import { PostData } from "../pages/post/[postId]";
 import CircleImage from "./CircleImage";
 import PostActions from "./PostActions";
 import PostHeader from "./PostHeader";
