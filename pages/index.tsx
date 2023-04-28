@@ -14,7 +14,9 @@ export default function Home({ sessionInfo }: { sessionInfo: Session }) {
       <div className="flex flex-col h-full bg-gray-100 ">
         <header className="bg-white border-b border-gray-300 flex flex-row items-center justify-center px-4 py-2">
           <div className="basis-1/4 w-8 ">
-            <h1 className="font-pacifico text-center text-2xl">Petster</h1>
+            <Link href={"/"}>
+              <h1 className="font-pacifico text-center text-2xl">Petster</h1>
+            </Link>
           </div>
           <div className="basis-1/2 grow flex items-center justify-center">
             <Link href={"/about"}>
