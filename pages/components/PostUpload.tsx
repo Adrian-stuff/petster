@@ -42,7 +42,7 @@ const ImageUploader = () => {
       formData.append("image", selectedFile);
 
       const response = await axios.post(
-        "http://localhost:4000/check-animal",
+        "https://petster-server-production.up.railway.app",
         formData,
         {
           headers: {
