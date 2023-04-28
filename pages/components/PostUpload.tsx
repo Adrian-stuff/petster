@@ -84,7 +84,7 @@ const ImageUploader = () => {
   return (
     <div className="bg-gray-200 border border-gray-300 rounded shadow-sm px-4  py-3  my-10 max-w-xl">
       <h1 className="ml-2 mt-1 mb-3 font-medium text-lg">
-        Share your pet's photo:{" "}
+        Share your pet&#39;s photo:
       </h1>
 
       <input
